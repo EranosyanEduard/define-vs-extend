@@ -8,7 +8,7 @@ import TestDefine from "./Test-1.define.vue";
 
 export default Vue.extend({
   name: "TestExtend1",
-  mixins: [TestDefine],
+  mixins: [TestDefine, Vue.extend({data(){return{foo:1}}})],
   props: {
     testExtendProps: Boolean,
   },
