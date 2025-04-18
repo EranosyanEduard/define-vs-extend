@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import TheAsyncCompsParent from './components/async-comps/TheAsyncCompsParent.vue';
+import VInput from './components/VInput.vue';
 </script>
 
 <template>
   <div id="app">
-    <TheAsyncCompsParent />
+    <h1>Vue app</h1>
+    <VInput></VInput>
   </div>
 </template>

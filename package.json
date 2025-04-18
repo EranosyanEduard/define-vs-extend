@@ -13,13 +13,12 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "pinia": "^2.0.16",
-    "pinia-plugin-persistedstate": "^4.2.0",
-    "vue": "^2.7.7",
-    "vue-router": "^3.5.4"
+    "inputmask": "^5.0.9",
+    "vue": "^2.7.7"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.0",
+    "@types/inputmask": "^5.0.7",
     "@types/jsdom": "^16.2.14",
     "@types/node": "^16.11.45",
     "@vitejs/plugin-legacy": "^2.0.0",
