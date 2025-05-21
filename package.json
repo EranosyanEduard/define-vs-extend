@@ -13,8 +13,9 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "inputmask": "^5.0.9",
-    "vue": "^2.7.7"
+    "inputmask": "5.0.6",
+    "vue": "^2.7.7",
+    "zod": "^3.24.3"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.0",

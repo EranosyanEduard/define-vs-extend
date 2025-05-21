@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import VInput from './components/VInput.vue';
+import SIcon from "./components/SIcon";
 </script>
 
 <template>
   <div id="app">
     <h1>Vue app</h1>
-    <VInput></VInput>
+    <SIcon color="tomato"></SIcon>
   </div>
 </template>
