@@ -3,17 +3,21 @@ import VIcon from "./VIcon";
 
 export default defineComponent({
   data() {
-    return { disabled: true };
+    return { size: 200 };
   },
   mounted() {
     setTimeout(() => {
-      this.disabled = !this.disabled;
+      this.size *= 2;
     }, 5_000);
   },
   render(h) {
-    return h(VIcon, {
-      attrs: this.$attrs,
-      props: { size: this.disabled ? 100 : 200 },
-    }, JSON.stringify(this.$attrs));
+    return h(
+      VIcon,
+      {
+        attrs: this.$attrs,
+        props: { size: this.size },
+      },
+      JSON.stringify(this.$attrs)
+    );
   },
 });

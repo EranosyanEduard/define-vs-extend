@@ -1,9 +1,8 @@
 <template>
   <div
+    class="v-icon"
     :style="{
-      backgroundColor: color,
-      border: '4px solid black',
-      color: 'white',
+      background: color,
       height: `${size}px`,
       width: `${size}px`,
     }"
@@ -19,3 +18,10 @@ export default defineComponent({
   props: ["color", "size"],
 });
 </script>
+
+<style>
+.v-icon {
+  color: black;
+  border: thin solid currentColor;
+}
+</style>
